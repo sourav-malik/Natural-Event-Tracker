@@ -6,7 +6,6 @@
 ## Table of contents
 
 - [General info](#general-info)
-- [Screenshots](#screenshots)
 - [Technologies](#technologies)
 - [Features](#features)
 
@@ -18,11 +17,6 @@ When the page is loaded the user is presented with a loading screen allowing the
 
 Once the data is fetched the loader is replaced with the Google maps component.
 
-## Screenshots
-
-![Example screenshot](screenshots/Screenshot1.png)
-![Example screenshot](screenshots/Screenshot2.png)
-![Example screenshot](screenshots/Screenshot3.png)
 
 ## Technologies
 
