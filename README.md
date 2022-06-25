@@ -1,7 +1,7 @@
 # Natural Event Tracker
 
 > A browser-based Natural Event Tracker using React and the NASA EONET API to fetch data and plot events onto Google maps. Once events have been plotted onto the Google
-> maps API, users can toggle which events they want to see (wildfires, storms, or active volcanos). Users are also able to click on event icons to see a box with additional information.
+> maps API, users can toggle which events they want to see (wildfires, storms,icebergs or active volcanos). Users are also able to click on event icons to see a box with additional information.
 
 ## Table of contents
 
@@ -9,7 +9,6 @@
 - [Screenshots](#screenshots)
 - [Technologies](#technologies)
 - [Features](#features)
-- [Contact](#contact)
 
 ## General info
 
@@ -19,6 +18,12 @@ When the page is loaded the user is presented with a loading screen allowing the
 
 Once the data is fetched the loader is replaced with the Google maps component.
 
+## Screenshots
+
+![Example screenshot](screenshots/Screenshot1.png)
+![Example screenshot](screenshots/Screenshot2.png)
+![Example screenshot](screenshots/Screenshot3.png)
+
 ## Technologies
 
 - React
@@ -26,3 +31,13 @@ Once the data is fetched the loader is replaced with the Google maps component.
 - EONET API
 - Google Maps React
 - HTML5
+
+## Features
+
+List of features
+
+- Data fetched using Javascript Fetch method.
+- Working error catching.
+- Buttons to toggle events
+- useContext hook used to manage states globally.
+- Google maps React implementation
